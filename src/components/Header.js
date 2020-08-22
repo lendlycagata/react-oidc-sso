@@ -25,7 +25,7 @@ const LoggedInNav = ({ logout, events }) => (
   <>
     <NavLink to='/events'>Events</NavLink>
     <NavLink to='/tasks'>Tasks</NavLink>
-    <NavLink to='/profile'>Home</NavLink>
+    <NavLink to='/profile'>Profile</NavLink>
     <Link to='/home' onClick={logout}>
       Logout
     </Link>
